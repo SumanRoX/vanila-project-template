@@ -1,0 +1,10 @@
+@import "config";
+
+@each $size in $value {
+    .h-#{$size}{
+        height: #{$size}0vh;
+    }
+    .w-#{$size}{
+        width: #{$size}0vw;
+    }    
+}
