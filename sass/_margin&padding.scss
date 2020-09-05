@@ -1,0 +1,97 @@
+@import "_config";
+
+// Margin
+@each $size in $value {
+
+    //Positive Margin
+    .pos-m-#{$size} {
+        margin: #{$size}em;
+    }
+    .pos-my-#{$size}{
+        margin : #{$size}rem 0;
+    }
+    .pos-mx-#{$size}{
+        margin: 0 #{$size}rem;
+    }
+    .pos-mt-#{$size}{
+        margin-top: #{$size}rem;
+    }
+    .pos-mr-#{$size}{
+        margin-right: #{$size}rem;
+    }
+    .pos-mb-#{$size}{
+        margin-bottom: #{$size}rem;
+    }
+    .pos-ml-#{$size}{
+        margin-left: #{$size}rem;
+    }
+
+    //Positive Padding
+    .pos-p-#{$size} {
+        padding: #{$size}rem;
+    }
+    .pos-py-#{$size}{
+        padding : #{$size}rem 0;
+    }
+    .pos-px-#{$size}{
+        padding: 0 #{$size}rem;
+    }
+    .pos-pt-#{$size}{
+        padding-top: #{$size}rem;
+    }
+    .pos-pr-#{$size}{
+        padding-right: #{$size}rem;
+    }
+    .pos-pb-#{$size}{
+        padding-bottom: #{$size}rem;
+    }
+    .pos-pl-#{$size}{
+        padding-left: #{$size}rem;
+    }
+
+    //Negative Margin
+    .neg-m-#{$size} {
+        margin: -#{$size}rem;
+    }
+    .neg-my-#{$size}{
+        margin : -#{$size}rem 0;
+    }
+    .neg-mx-#{$size}{
+        margin: 0 -#{$size}rem;
+    }
+    .neg-mt-#{$size}{
+        margin-top: -#{$size}rem;
+    }
+    .neg-mr-#{$size}{
+        margin-right: -#{$size}rem;
+    }
+    .neg-mb-#{$size}{
+        margin-bottom: -#{$size}rem;
+    }
+    .neg-ml-#{$size}{
+        margin-left: -#{$size}rem;
+    }
+
+    //Negative Padding
+    .neg-p-#{$size} {
+        padding: -#{$size}rem;
+    }
+    .neg-py-#{$size}{
+        padding : -#{$size}rem 0;
+    }
+    .neg-px-#{$size}{
+        padding: 0 -#{$size}rem;
+    }
+    .neg-pt-#{$size}{
+        padding-top: -#{$size}rem;
+    }
+    .neg-pr-#{$size}{
+        padding-right: -#{$size}rem;
+    }
+    .neg-pb-#{$size}{
+        padding-bottom: -#{$size}rem;
+    }
+    .neg-pl-#{$size}{
+        padding-left: -#{$size}rem;
+    }
+}
