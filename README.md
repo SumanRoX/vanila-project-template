@@ -1,4 +1,4 @@
-# Vanila Template
+# Vanila Web Project Template
 
 <p>Vanila Web Project template with Bootstrap Icons and SASS</p>
 
