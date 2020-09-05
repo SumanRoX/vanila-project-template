@@ -1,6 +1,6 @@
-# Vanila Web Project Template
+# Vanilla Web Project Template
 
-<p>Vanila Web Project template with Bootstrap Icons and SASS</p>
+<p>Vanilla Web Project template with Bootstrap Icons and SASS</p>
 
 <p>Project Includes the following modules</p>
 <ul>
