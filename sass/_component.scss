@@ -1,0 +1,56 @@
+@import "config";
+
+
+@each $font-format in $value {
+    .font-size-#{$font-format}{
+        font-size: #{$font-format}em;
+    }
+    .font-weight-#{$font-format}{
+        font-weight: #{$font-format}00;
+    }
+    .font-spacing-#{$font-format}{
+        letter-spacing: calc(#{$font-format}0/2)px;
+    }
+}
+
+// Common App Component Properties
+
+@each $level in $value {
+    .app-op-#{$level}{
+        opacity: #{$level}0%;
+    }
+    .app-skew-#{$level}{
+        transform: skew(#{$level}deg);
+    }
+    .app-skew-x-#{$level}{
+        transform: skewX(#{$level}deg,0);
+    }
+    .app-skew-y-#{$level}{
+        transform: skewY(0,#{$level}deg);
+    }
+    .app-size-#{$level}{
+        height: #{$level}em;
+        width: #{$level}em;
+    }
+}
+
+// App Borders
+
+$borders : (top,right,bottom,left);
+%border-default{
+    border: none;
+    border: .5px solid $border-color;
+}
+
+@each $radius in $value {
+    .radius-#{$radius}{
+        border-radius: #{$radius}0%;
+    }
+}
+
+@each $border in $borders {
+    .border-#{$border}{
+        @extend %border-default;
+        border-#{$border}: #{$border};
+    }
+}

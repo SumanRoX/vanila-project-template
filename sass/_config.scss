@@ -1,23 +1,46 @@
-$color-primary   : blue;
-$color-secondary : red;
-$color-accent    : green;
-$color-cta       : gray;
+// Default Colors
+$color-primary   : #64FAB3;
+$color-secondary : #59DE79;
+$color-accent    : #D5FA64;
+$color-cta       : #F56EBB;
+$color-detect-item : black;
 
+// Font
+$primary-font   : 'Roboto';
+$secondary-font : 'Times New Roman';
+$ui-font        : 'Roboto';
+
+
+// Shared Border Color
+$border-color : black;
+
+// Shared List
 $value : (1,2,3,4,5,6,7,8,9,10);
-$flex-value : (center, space-around, space-evenly, flex-start, flex-end);
 
+
+
+%box-shadow {
+    -webkit-box-shadow: -2px 10px 5px -8px rgba(156,156,156,1);
+    -moz-box-shadow: -2px 10px 5px -8px rgba(156,156,156,1);
+    box-shadow: -2px 10px 5px -8px rgba(156,156,156,1);
+}
+
+
+// Flex Box
 %d-flex {
     display: flex;
     align-items: center;
 }
-
+$flex-value : (center, space-around, space-evenly, flex-start, flex-end);
 @each $value in $flex-value {
     .d-#{$value}{
         @extend %d-flex;
         justify-content: #{$value};
     }
+    .flex-#{$value}{
+        flex: #{$value};
+    }
 }
-
 .flex-column{
     flex-direction: column;
 }
@@ -25,6 +48,19 @@ $flex-value : (center, space-around, space-evenly, flex-start, flex-end);
     flex-direction: row;
 }
 
-.test{
-    background-color: $color-secondary;
+
+
+// Height and width in Viewports
+@each $size in $value {
+    .h-#{$size}{
+        height: #{$size}0vh;
+    }
+    .w-#{$size}{
+        width: #{$size}0vw;
+    }    
+}
+
+// For detecting the element, its great for testing
+.detect-element{
+    background-color: $color-detect-item;
 }
