@@ -22,3 +22,41 @@ Its purely made out of  SASS file hence can be modified according to your own ne
 <li>Default colors as primary, secondary  etc.</li>
 <li>Added an element detection class</li>
 </ul>
+
+<h3><strong>Upcomming Utility Classes</strong></h3>
+<ul>
+<li>[ ]  Avatar </li>
+<li>[ ]  Badge</li>
+<li>[ ]  Banner</li>
+<li>[ ]  Breadcrumbs</li>
+<li>[ ]  Blanket</li>
+<li>[ ]  Button</li>
+<li>[ ]  Calendar</li>
+<li>[ ]  Checkbox</li>
+<li>[ ]  Date tine picker</li>
+<li>[ ]  Dropdown Menu</li>
+<li>[ ]  Empty State</li>
+<li>[ ]  Flag</li>
+<li>[ ]  Inline Edit</li>
+<li>[ ]  Lozenge</li>
+<li>[ ]  Mention</li>
+<li>[ ]  Model Dialog</li>
+<li>[ ]  Navigation</li>
+<li>[ ]  On-Boarding</li>
+<li>[ ]  Page-Header</li>
+<li>[ ]  Pagination</li>
+<li>[ ]  Progress bar</li>
+<li>[ ]  Progress Indicator</li>
+<li>[ ]  Progress Tracker</li>
+<li>[ ]  Radio</li>
+<li>[ ]  Range</li>
+<li>[ ]  Selection Message</li>
+<li>[ ]  Select</li>
+<li>[ ]  Table</li>
+<li>[ ]  Tabs</li>
+<li>[ ]  Tags</li>
+<li>[ ]  Text Field</li>
+<li>[ ]  Text Area</li>
+<li>[ ]  Toggle</li>
+<li>[ ]  Tooltip</li>
+<ul>
